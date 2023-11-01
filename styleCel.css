@@ -1,26 +1,38 @@
 @media (max-width: 430px) {
     
 
+ 
     .botao {
+        display:inline-block;;
         font-size: smaller;
         background-color: #ff725e;
         border-radius: 8px;
         color: #ffffff;
-        padding: 16px 32px;
+        padding: 16px 24px;
         text-decoration: none;
     }
     
     .botaoTransparente {
+        display:inline-block;
         font-size: smaller;
         background-color: transparent;
         color: #ff725e;
-        padding: 16px 32px;
+        padding: 16px 24px;
         text-underline-offset: 4px;
     }
     
     .imgInicial{
         width: 30%;
         height: 30%;
+    }
+
+    .absolute {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        width: 100%;
+        z-index: -10;
+        
     }
     
     .imgClinica{
@@ -32,6 +44,11 @@
         font-size: medium;
         line-height: 150%;
         margin-bottom: 32px;
+    }
+
+    .imgDuvida{
+        width: 50%;
+        height: 50%;
     }
     
     }

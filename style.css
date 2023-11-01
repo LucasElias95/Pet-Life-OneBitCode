@@ -68,6 +68,11 @@ h2 {
     /*profundidade*/
 }
 
+.imgInicial{
+    width: 580px;
+    height: 580px;
+}
+
 #clinica {
     display: flex;
     align-items: center;
@@ -78,6 +83,11 @@ h2 {
 #clinica li {
     margin-bottom: 16px;
     margin-left: 32px;
+}
+
+.imgClinica{
+    width: 480px;
+    height: 480px;
 }
 
 #farmacia {

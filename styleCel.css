@@ -1,4 +1,4 @@
-@media (max-width: 868px) {
+@media (max-width: 430px) {
     
 
 .botao {
@@ -26,6 +26,12 @@
 .imgClinica{
     width: 180px;
     height: 180px;
+}
+
+.paragrafo {
+    font-size: small;
+    line-height: 150%;
+    margin-bottom: 32px;
 }
 
 }

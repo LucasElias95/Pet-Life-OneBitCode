@@ -54,6 +54,7 @@ h2 {
 
 .botaoTransparente {
     background-color: transparent;
+    border-radius: 8px;
     color: #ff725e;
     padding: 16px 32px;
     text-underline-offset: 4px;
